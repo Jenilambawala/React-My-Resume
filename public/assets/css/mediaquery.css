@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+
+    /* Main Banner */
+    .main_banner .banner_details {
+        margin: 100px 0px 50px;
+    }
+    .main_banner .banner_details .banner_img {
+        display: none;
+    }
+    .main_banner .banner_details .banner_info .main_text p {
+        margin: 20px 0px 40px !important;
+    }
+    
+    /* About Me */
+    .about_details .about_image {
+        margin: auto;
+    }
+    .about_details .about_image img {
+        width: 100%;
+    }
+    .about_me .about_details {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    /* My Experience */
+    .my_experience .experience_details {
+        gap: 20px;
+    }
+
+    /* My Skills & Abilities */
+    .my_skills .skills_info {
+        gap: 40px;
+    }
+
+    /* Contact Me Start */
+    .contact_me .contact_details {
+        gap: 20px;
+    }
+    .contact_me .contact_details .contact_card {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    /* Header */
+    .header .contact_btn {
+        padding: 5px 10px;
+    }
+
+    /* Main Banner */
+    .main_banner .banner_details .banner_info p.text_wrap {
+        width: auto;
+        text-align: justify;
+    }
+
+    /* My Experience */
+    .my_experience .experience_details .details_wrap {
+        padding: 15px;
+        width: auto;
+    }
+
+    /* My Skills & Abilities */
+    .my_skills .skills_info {
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) { 
+    .my_experience .experience_details {
+        gap: 35px;
+    }
+}
